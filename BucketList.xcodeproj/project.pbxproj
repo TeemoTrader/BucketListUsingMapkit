@@ -11,6 +11,11 @@
 		65996B8726B078B300EA3753 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65996B8626B078B300EA3753 /* ContentView.swift */; };
 		65996B8926B078B500EA3753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65996B8826B078B500EA3753 /* Assets.xcassets */; };
 		65996B8C26B078B500EA3753 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65996B8B26B078B500EA3753 /* Preview Assets.xcassets */; };
+		65996B9426B0831F00EA3753 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65996B9326B0831F00EA3753 /* MapView.swift */; };
+		65996B9626B1DFFD00EA3753 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65996B9526B1DFFD00EA3753 /* MKPointAnnotation-ObservableObject.swift */; };
+		65996B9826B1E0FB00EA3753 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65996B9726B1E0FB00EA3753 /* EditView.swift */; };
+		65996B9A26B1E85700EA3753 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65996B9926B1E85700EA3753 /* Result.swift */; };
+		65996B9C26B318C000EA3753 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65996B9B26B318C000EA3753 /* MKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		65996B8826B078B500EA3753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65996B8B26B078B500EA3753 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		65996B8D26B078B500EA3753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65996B9326B0831F00EA3753 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		65996B9526B1DFFD00EA3753 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		65996B9726B1E0FB00EA3753 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		65996B9926B1E85700EA3753 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		65996B9B26B318C000EA3753 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 			children = (
 				65996B8426B078B300EA3753 /* BucketListApp.swift */,
 				65996B8626B078B300EA3753 /* ContentView.swift */,
+				65996B9326B0831F00EA3753 /* MapView.swift */,
 				65996B8826B078B500EA3753 /* Assets.xcassets */,
 				65996B8D26B078B500EA3753 /* Info.plist */,
 				65996B8A26B078B500EA3753 /* Preview Content */,
+				65996B9526B1DFFD00EA3753 /* MKPointAnnotation-ObservableObject.swift */,
+				65996B9726B1E0FB00EA3753 /* EditView.swift */,
+				65996B9926B1E85700EA3753 /* Result.swift */,
+				65996B9B26B318C000EA3753 /* MKPointAnnotation-Codable.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65996B9C26B318C000EA3753 /* MKPointAnnotation-Codable.swift in Sources */,
+				65996B9A26B1E85700EA3753 /* Result.swift in Sources */,
 				65996B8726B078B300EA3753 /* ContentView.swift in Sources */,
+				65996B9826B1E0FB00EA3753 /* EditView.swift in Sources */,
+				65996B9626B1DFFD00EA3753 /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				65996B9426B0831F00EA3753 /* MapView.swift in Sources */,
 				65996B8526B078B300EA3753 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
